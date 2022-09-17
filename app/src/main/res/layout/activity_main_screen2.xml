@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityScreen2"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <!-- Logo   -->
+    <ImageView
+        android:id="@+id/musifyLogoUpdated"
+        android:layout_width="140dp"
+        android:layout_height="120dp"
+        android:src="@drawable/logo_updated"
+        android:translationX="20dp"
+        android:translationY="60dp"></ImageView>
+
+    <!-- Sign In   -->
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Sign In"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="20sp"
+        android:translationX="310dp"
+        android:translationY="20dp"></Button>
+
+    <!-- Logo Name   -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Musify"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:translationX="45dp"
+        android:translationY="190dp" />
+
+    <!-- First Entry -->
+    <View
+        android:id="@+id/myRectangleView"
+        android:layout_width="355dp"
+        android:layout_height="55dp"
+        android:background="@drawable/rectangle_rounded"
+        android:translationX="28dp"
+        android:translationY="255dp"></View>
+    <EditText
+        android:id="@+id/input_name"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:inputType="text"
+        android:translationX="34dp"
+        android:translationY="255dp"
+        android:text="Name"
+        android:layout_margin="6dp"
+        android:textColor="#d4b300"
+        android:backgroundTint="#f6f6f6"/>
+
+    <!-- Second Entry -->
+    <View
+        android:id="@+id/myRectangleView2"
+        android:layout_width="355dp"
+        android:layout_height="55dp"
+        android:translationX="28dp"
+        android:translationY="330dp"
+        android:background="@drawable/rectangle_rounded">
+    </View>
+    <EditText
+        android:id="@+id/input_email"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:inputType="text"
+        android:translationX="34dp"
+        android:translationY="330dp"
+        android:text="Email"
+        android:layout_margin="6dp"
+        android:textColor="#d4b300"
+        android:backgroundTint="#f6f6f6"/>
+
+    <!-- Third Entry -->
+    <View
+        android:id="@+id/myRectangleView3"
+        android:layout_width="355dp"
+        android:layout_height="55dp"
+        android:translationX="28dp"
+        android:translationY="405dp"
+        android:background="@drawable/rectangle_rounded">
+    </View>
+    <EditText
+        android:id="@+id/input_pass"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:inputType="text"
+        android:translationX="34dp"
+        android:translationY="405dp"
+        android:text="Password"
+        android:layout_margin="6dp"
+        android:textColor="#d4b300"
+        android:backgroundTint="#f6f6f6"/>
+
+    <!--  Show Pass  -->
+    <TextView
+        android:id="@+id/showpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#f6f6f6"
+        android:text="Show"
+        android:textColor="#d4b300"
+        android:textSize="18sp"
+        android:layout_margin="18dp"
+        android:translationX="300dp"
+        android:translationY="403dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"></TextView>
+
+    <!-- Gender  -->
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:text="Gender"
+        android:textColor="#d4b300"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:translationX="35dp"
+        android:translationY="470dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"></TextView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:translationY="520dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/screens_2_gd1"
+            android:translationX="-45dp"></ImageView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/screens_2_gd2"
+            android:translationX="35dp"></ImageView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/screens_2_gd3"
+            android:translationX="95dp"></ImageView>
+    </RelativeLayout>
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="360dp"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:text="I would like to receive your newsletter and other promotional information."
+        android:textColor="#ffffff"
+        android:translationX="20dp"
+        android:translationY="610dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signup"
+        android:layout_width="365dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_rounded"
+        android:text="Sign In"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:translationX="23dp"
+        android:translationY="690dp"></androidx.appcompat.widget.AppCompatButton>
+
+</RelativeLayout>

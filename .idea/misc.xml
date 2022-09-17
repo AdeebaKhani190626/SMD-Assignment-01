@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/drawable/button_rounded.xml" value="0.2075" />
+        <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/drawable/rectangle_rounded.xml" value="0.2075" />
         <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/layout/activity_main_screen2.xml" value="0.1693121693121693" />
+        <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/layout/activity_main_screen3.xml" value="0.1859375" />
       </map>
     </option>
   </component>
