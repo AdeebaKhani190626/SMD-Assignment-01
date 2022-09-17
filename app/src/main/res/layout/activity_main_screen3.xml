@@ -1,9 +1,125 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivityScreen3">
+    tools:context=".MainActivityScreen3"
+    android:orientation="vertical"
+    android:background="@color/black">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- Logo   -->
+    <ImageView
+        android:id="@+id/musifyLogoUpdated"
+        android:layout_width="140dp"
+        android:layout_height="120dp"
+        android:src="@drawable/logo_updated"
+        android:translationX="20dp"
+        android:translationY="60dp"></ImageView>
+
+    <!-- Sign In   -->
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Sign Up"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="20sp"
+        android:translationX="310dp"
+        android:translationY="20dp"></Button>
+
+    <!-- Logo Name   -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Musify"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:translationX="45dp"
+        android:translationY="190dp" />
+
+    <!-- First Entry -->
+    <View
+        android:id="@+id/myRectangleView"
+        android:layout_width="355dp"
+        android:layout_height="55dp"
+        android:background="@drawable/rectangle_rounded"
+        android:translationX="28dp"
+        android:translationY="320dp"></View>
+    <EditText
+        android:id="@+id/input_name"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:inputType="text"
+        android:translationX="34dp"
+        android:translationY="320dp"
+        android:text="Name"
+        android:layout_margin="6dp"
+        android:textColor="#d4b300"
+        android:backgroundTint="#f6f6f6"/>
+
+    <!-- Third Entry -->
+    <View
+        android:id="@+id/myRectangleView3"
+        android:layout_width="355dp"
+        android:layout_height="55dp"
+        android:translationX="28dp"
+        android:translationY="405dp"
+        android:background="@drawable/rectangle_rounded">
+    </View>
+    <EditText
+        android:id="@+id/input_pass"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:inputType="text"
+        android:translationX="34dp"
+        android:translationY="405dp"
+        android:text="Password"
+        android:layout_margin="6dp"
+        android:textColor="#d4b300"
+        android:backgroundTint="#f6f6f6"/>
+
+    <!--  Show Pass  -->
+    <TextView
+        android:id="@+id/showpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#f6f6f6"
+        android:text="Show"
+        android:textColor="#d4b300"
+        android:textSize="18sp"
+        android:layout_margin="18dp"
+        android:translationX="300dp"
+        android:translationY="403dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"></TextView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signin"
+        android:layout_width="365dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_rounded"
+        android:text="Sign In"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:translationX="23dp"
+        android:translationY="550dp"></androidx.appcompat.widget.AppCompatButton>
+
+    <Button
+        android:id="@+id/fogotpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Forgot your password?"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="20sp"
+        android:textColor="#d4b300"
+        android:translationX="85dp"
+        android:translationY="630dp"></Button>
+
+</RelativeLayout>

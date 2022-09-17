@@ -171,7 +171,7 @@
         android:layout_width="365dp"
         android:layout_height="60dp"
         android:background="@drawable/button_rounded"
-        android:text="Sign In"
+        android:text="Sign Up"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
