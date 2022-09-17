@@ -1,9 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivityScreen4">
+    tools:context=".MainActivityScreen4"
+    android:orientation="vertical"
+    android:background="@color/black">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- Logo   -->
+    <ImageView
+        android:id="@+id/musifyLogoUpdated"
+        android:layout_width="140dp"
+        android:layout_height="120dp"
+        android:src="@drawable/logo_updated"
+        android:translationX="20dp"
+        android:translationY="60dp"></ImageView>
+
+    <!-- Logo Name   -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Musify"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:translationX="45dp"
+        android:translationY="190dp" />
+
+    <!-- Sign In   -->
+    <Button
+        android:id="@+id/signinaccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Sign In"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="20sp"
+        android:translationX="310dp"
+        android:translationY="20dp"></Button>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/facebook"
+        android:layout_width="365dp"
+        android:layout_height="70dp"
+        android:background="@drawable/rectangle_rounded"
+        android:text="    Continue with Facebook"
+        android:textAllCaps="false"
+        android:textColor="#4267b2"
+        android:textSize="20sp"
+        android:translationX="23dp"
+        android:translationY="300dp">
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <ImageView
+        android:id="@+id/fb"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/screens_4_fb"
+        android:translationX="45dp"
+        android:elevation="60dp"
+        android:translationY="310dp"></ImageView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/google"
+        android:layout_width="365dp"
+        android:layout_height="70dp"
+        android:background="@drawable/rectangle_rounded"
+        android:text="Contiue with Google"
+        android:textAllCaps="false"
+        android:textColor="#db4437"
+        android:textSize="20sp"
+        android:translationX="23dp"
+        android:translationY="400dp"></androidx.appcompat.widget.AppCompatButton>
+
+    <ImageView
+        android:id="@+id/goog"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/screens_4_google"
+        android:translationX="45dp"
+        android:elevation="60dp"
+        android:translationY="410dp"></ImageView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/createaccount"
+        android:layout_width="365dp"
+        android:layout_height="70dp"
+        android:background="@drawable/rectangle_rounded"
+        android:text="Create Account"
+        android:textAllCaps="false"
+        android:textColor="#d4b300"
+        android:textSize="20sp"
+        android:translationX="23dp"
+        android:translationY="500dp"></androidx.appcompat.widget.AppCompatButton>
+
+</RelativeLayout>

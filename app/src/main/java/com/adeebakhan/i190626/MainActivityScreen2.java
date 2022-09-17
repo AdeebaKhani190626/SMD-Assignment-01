@@ -24,7 +24,7 @@ public class MainActivityScreen2 extends AppCompatActivity {
                     public void run() {
                         startActivity(intent);
                     }
-                },1000);
+                },10);
             }
         });
     }

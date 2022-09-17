@@ -24,7 +24,7 @@ public class MainActivityScreen3 extends AppCompatActivity {
                     public void run() {
                         startActivity(intent);
                     }
-                },1000);
+                },10);
             }
         });
 
@@ -37,7 +37,7 @@ public class MainActivityScreen3 extends AppCompatActivity {
                     public void run() {
                         startActivity(intent);
                     }
-                },1000);
+                },10);
             }
         });
     }
