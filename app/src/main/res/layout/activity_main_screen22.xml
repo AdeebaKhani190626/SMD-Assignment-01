@@ -1,9 +1,222 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivityScreen22">
+    tools:context=".MainActivityScreen22"
+    android:orientation="vertical"
+    android:background="@color/black">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- Top Bar   -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:id="@+id/screen22_back"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/screens_7_arrow_02"
+            android:translationX="10dp"
+            android:translationY="35dp"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:textColor="#ffffff"
+            android:textSize="35dp"
+            android:translationX="75dp"
+            android:translationY="40dp"></TextView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="Save"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:textColor="#d4b300"
+            android:translationX="320dp"
+            android:translationY="40dp"></Button>
+    </RelativeLayout>
+
+    <!-- Main   -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:translationY="101dp">
+        <ImageView
+            android:layout_width="270dp"
+            android:layout_height="270dp"
+            android:src="@drawable/gradient_circle"
+            android:translationY="20dp"
+            android:translationX="65dp">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textSize="30dp"
+            android:textColor="#d4b300"
+            android:translationX="130dp"
+            android:translationY="310dp">
+        </TextView>
+
+        <!-- First Entry -->
+        <View
+            android:id="@+id/myRectangleView3"
+            android:layout_width="355dp"
+            android:layout_height="55dp"
+            android:translationX="28dp"
+            android:translationY="390dp"
+            android:background="@drawable/rectangle_rounded">
+        </View>
+        <EditText
+            android:id="@+id/input_email"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:inputType="text"
+            android:translationX="34dp"
+            android:translationY="387dp"
+            android:text="abcd@abcd.com"
+            android:textSize="20sp"
+            android:layout_margin="6dp"
+            android:textColor="#d4b300"
+            android:backgroundTint="#f6f6f6"/>
+
+        <!--  Edit  -->
+        <TextView
+            android:id="@+id/edit1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#f6f6f6"
+            android:text="edit"
+            android:textColor="#d4b300"
+            android:textSize="20sp"
+            android:layout_margin="18dp"
+            android:translationX="310dp"
+            android:translationY="385dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"></TextView>
+
+        <!-- Second Entry -->
+        <View
+            android:id="@+id/myRectangleView4"
+            android:layout_width="355dp"
+            android:layout_height="55dp"
+            android:translationX="28dp"
+            android:translationY="500dp"
+            android:background="@drawable/rectangle_rounded">
+        </View>
+        <EditText
+            android:id="@+id/input_pass"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:inputType="textPassword"
+            android:translationX="34dp"
+            android:translationY="500dp"
+            android:text="adeeba"
+            android:textSize="20sp"
+            android:layout_margin="6dp"
+            android:textColor="#d4b300"
+            android:backgroundTint="#f6f6f6"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#000000"
+            android:text="Password"
+            android:textColor="#d4b300"
+            android:textSize="20sp"
+            android:translationX="30dp"
+            android:translationY="460dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"></TextView>
+        <!--  Edit  -->
+        <TextView
+            android:id="@+id/edit2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#f6f6f6"
+            android:text="edit"
+            android:textColor="#d4b300"
+            android:textSize="20sp"
+            android:layout_margin="18dp"
+            android:translationX="310dp"
+            android:translationY="495dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"></TextView>
+
+    </RelativeLayout>
+
+    <!-- Bottom Bar   -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#2a2730"
+        android:translationY="750dp">
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="60dp"
+            android:src="@drawable/screens_5_21"
+            android:translationX="20dp"
+            android:translationY="3dp"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Liked"
+            android:textColor="#e8def8"
+            android:translationX="35dp"
+            android:translationY="50dp"></TextView>
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="60dp"
+            android:src="@drawable/screens_5_23"
+            android:translationX="125dp"
+            android:translationY="8dp"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:textColor="#e8def8"
+            android:translationX="142dp"
+            android:translationY="50dp"></TextView>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/screens_5_25"
+            android:translationX="230dp"
+            android:translationY="18dp"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:textColor="#e8def8"
+            android:translationX="230dp"
+            android:translationY="50dp"></TextView>
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:src="@drawable/screens_5_27"
+            android:translationX="328dp"
+            android:translationY="10dp"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Listen Later"
+            android:textColor="#e8def8"
+            android:translationX="320dp"
+            android:translationY="50dp"></TextView>
+    </RelativeLayout>
+
+
+</RelativeLayout>
