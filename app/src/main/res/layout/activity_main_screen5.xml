@@ -217,10 +217,9 @@
                 android:id="@+id/add"
                 android:layout_width="65dp"
                 android:layout_height="60dp"
-                android:translationY="8dp"
+                android:src="@drawable/screens_5_23"
                 android:translationX="125dp"
-                android:src="@drawable/screens_5_23">
-            </ImageView>
+                android:translationY="8dp"></ImageView>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
