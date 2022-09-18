@@ -25,6 +25,7 @@
             android:translationY="60dp" />
 
         <ImageView
+            android:id="@+id/screen19_back"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:src="@drawable/screens_7_arrow_02"

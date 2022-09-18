@@ -15,6 +15,19 @@ public class MainActivityScreen17 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_screen17);
 
+        final ImageView back = findViewById(R.id.screen17_back);
+        back.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivityScreen17.this, MainActivityScreen16.class);
+                new Handler().postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        startActivity(intent);
+                    }
+                },10);
+            }
+        });
+
         final ImageView listen = findViewById(R.id.screen17_listenLater);
         listen.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
