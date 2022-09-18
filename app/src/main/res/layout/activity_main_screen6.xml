@@ -1,9 +1,182 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivityScreen6">
+    tools:context=".MainActivityScreen6"
+    android:orientation="vertical"
+    android:background="@color/black">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <ImageView
+            android:id="@+id/back_button"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:translationY="35dp"
+            android:translationX="10dp"
+            android:src="@drawable/screens_7_arrow_02">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Song Title"
+            android:textColor="#ffffff"
+            android:textSize="35dp"
+            android:translationY="40dp"
+            android:translationX="75dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="By Artist"
+            android:textColor="#d4b300"
+            android:textSize="25dp"
+            android:translationY="110dp"
+            android:translationX="25dp">
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        android:translationY="151dp">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:translationY="95dp"
+            android:translationX="15dp"
+            android:src="@drawable/screens_5_04">
+        </ImageView>
+        <View
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:background="@drawable/message_bar"
+            android:translationX="90dp"
+            android:translationY="100dp">
+        </View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What an amazing song"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:translationY="114dp"
+            android:translationX="110dp">
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:translationY="620dp">
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:background="@drawable/message_bar"
+            android:translationX="25dp"
+            android:translationY="50dp">
+        </View>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:translationX="40dp"
+            android:background="@null"
+            android:translationY="55dp"
+            android:layout_margin="10dp"
+            android:text="Post a comment"
+            android:textColor="#ffffff">
+        </EditText>
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/gradient_circle"
+            android:translationX="335dp"
+            android:translationY="50dp">
+        </View>
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/screens_5_16"
+            android:translationX="335dp"
+            android:translationY="50dp">
+        </ImageView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:translationY="750dp"
+        android:background="#2a2730">
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="60dp"
+            android:src="@drawable/screens_5_21"
+            android:translationY="3dp"
+            android:translationX="20dp"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Liked"
+            android:textColor="#e8def8"
+            android:translationY="50dp"
+            android:translationX="35dp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="60dp"
+            android:translationY="8dp"
+            android:translationX="125dp"
+            android:src="@drawable/screens_5_23">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:textColor="#e8def8"
+            android:translationY="50dp"
+            android:translationX="142dp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:translationY="18dp"
+            android:translationX="230dp"
+            android:src="@drawable/screens_5_25">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:textColor="#e8def8"
+            android:translationY="50dp"
+            android:translationX="230dp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:translationY="10dp"
+            android:translationX="328dp"
+            android:src="@drawable/screens_5_27">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Listen Later"
+            android:textColor="#e8def8"
+            android:translationY="50dp"
+            android:translationX="320dp">
+        </TextView>
+    </RelativeLayout>
+
+</RelativeLayout>
