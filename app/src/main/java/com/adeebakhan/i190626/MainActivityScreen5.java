@@ -43,10 +43,10 @@ public class MainActivityScreen5 extends AppCompatActivity {
             }
         });
 
-        final ImageView add = findViewById(R.id.add);
-        add.setOnClickListener(new View.OnClickListener() {
+        final ImageView profile = findViewById(R.id.screen5_profile);
+        profile.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivityScreen5.this, MainActivityScreen8.class);
+                Intent intent = new Intent(MainActivityScreen5.this, MainActivityScreen21.class);
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {

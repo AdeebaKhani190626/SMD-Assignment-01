@@ -20,13 +20,14 @@
             android:src="@drawable/screens_5_02"
             android:translationX="20dp"
             android:translationY="20dp"></ImageView>
+
         <ImageView
+            android:id="@+id/screen5_profile"
             android:layout_width="70dp"
             android:layout_height="70dp"
-            android:translationY="20dp"
+            android:src="@drawable/screens_5_04"
             android:translationX="320dp"
-            android:src="@drawable/screens_5_04">
-        </ImageView>
+            android:translationY="20dp"></ImageView>
 
     </RelativeLayout>
 

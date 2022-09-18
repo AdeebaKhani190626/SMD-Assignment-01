@@ -5,16 +5,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivityScreen6"
+    tools:context=".MainActivityScreen21"
     android:orientation="vertical"
     android:background="@color/black">
 
+    <!-- Top Bar   -->
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp">
+        android:layout_height="100dp">
 
         <ImageView
-            android:id="@+id/back_button"
+            android:id="@+id/screen21_back"
             android:layout_width="65dp"
             android:layout_height="65dp"
             android:src="@drawable/screens_7_arrow_02"
@@ -24,91 +25,77 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Song Title"
+            android:text="Profile"
             android:textColor="#ffffff"
             android:textSize="35dp"
             android:translationX="75dp"
             android:translationY="40dp"></TextView>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="By Artist"
-            android:textColor="#d4b300"
-            android:textSize="25dp"
-            android:translationX="25dp"
-            android:translationY="110dp"></TextView>
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="470dp"
-        android:translationY="151dp">
         <ImageView
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:translationY="95dp"
-            android:translationX="15dp"
-            android:src="@drawable/screens_5_04">
-        </ImageView>
-        <View
-            android:layout_width="300dp"
-            android:layout_height="55dp"
-            android:background="@drawable/message_bar"
-            android:translationX="90dp"
-            android:translationY="100dp">
-        </View>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="What an amazing song"
-            android:textColor="#ffffff"
-            android:textSize="18dp"
-            android:translationY="114dp"
-            android:translationX="110dp">
-        </TextView>
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="130dp"
-        android:translationY="620dp">
-
-        <View
-            android:layout_width="300dp"
-            android:layout_height="55dp"
-            android:background="@drawable/message_bar"
-            android:translationX="25dp"
-            android:translationY="50dp">
-        </View>
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:translationX="40dp"
-            android:background="@null"
-            android:translationY="55dp"
-            android:layout_margin="10dp"
-            android:text="Post a comment"
-            android:textColor="#ffffff">
-        </EditText>
-
-        <View
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:background="@drawable/gradient_circle"
-            android:translationX="335dp"
-            android:translationY="50dp">
-        </View>
-        <ImageView
+            android:id="@+id/screen21_edit"
             android:layout_width="65dp"
             android:layout_height="65dp"
-            android:src="@drawable/screens_5_16"
-            android:translationX="335dp"
-            android:translationY="50dp">
+            android:src="@drawable/screens_22_03"
+            android:translationX="330dp"
+            android:translationY="40dp"></ImageView>
+    </RelativeLayout>
+
+    <!-- Main   -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:translationY="101dp">
+        <ImageView
+            android:layout_width="270dp"
+            android:layout_height="270dp"
+            android:src="@drawable/gradient_circle"
+            android:translationY="20dp"
+            android:translationX="65dp">
         </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textSize="30dp"
+            android:textColor="#d4b300"
+            android:translationX="130dp"
+            android:translationY="310dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="email"
+            android:textSize="30dp"
+            android:textColor="#d4b300"
+            android:translationX="50dp"
+            android:translationY="400dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Playlists: 4"
+            android:textSize="30dp"
+            android:textColor="#d4b300"
+            android:translationX="50dp"
+            android:translationY="445dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Songs: 4"
+            android:textSize="30dp"
+            android:textColor="#d4b300"
+            android:translationX="50dp"
+            android:translationY="490dp">
+        </TextView>
 
     </RelativeLayout>
 
+    <!-- Bottom Bar   -->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="80dp"
