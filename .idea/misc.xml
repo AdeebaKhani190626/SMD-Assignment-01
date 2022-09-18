@@ -3,18 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2075" />
         <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/drawable/button_rounded.xml" value="0.2075" />
         <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/drawable/circle_grey.xml" value="0.2065" />
         <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/drawable/gradient_bar.xml" value="0.18" />
         <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/drawable/gradient_circle.xml" value="0.2075" />
         <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/drawable/information.xml" value="0.135" />
         <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/drawable/message_bar.xml" value="0.12" />
+        <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/drawable/playlist_rounded.xml" value="0.2075" />
         <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/drawable/rectangle_rounded.xml" value="0.2075" />
+        <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/drawable/yellow_circle.xml" value="0.2065" />
         <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/layout/activity_main.xml" value="0.1285140562248996" />
         <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/layout/activity_main_screen10.xml" value="0.12972972972972974" />
         <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/layout/activity_main_screen11.xml" value="0.12972972972972974" />
         <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/layout/activity_main_screen12.xml" value="0.12972972972972974" />
-        <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/layout/activity_main_screen13.xml" value="0.12060810810810811" />
+        <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/layout/activity_main_screen13.xml" value="0.15" />
+        <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/layout/activity_main_screen14.xml" value="0.16" />
+        <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/layout/activity_main_screen15.xml" value="0.18" />
+        <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/layout/activity_main_screen16.xml" value="0.12972972972972974" />
         <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/layout/activity_main_screen2.xml" value="0.1693121693121693" />
         <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/layout/activity_main_screen3.xml" value="0.1859375" />
         <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/layout/activity_main_screen4.xml" value="0.18" />
