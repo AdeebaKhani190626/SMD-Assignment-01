@@ -20,24 +20,28 @@
             android:background="@drawable/rectangle_rounded"
             android:translationX="65dp"
             android:translationY="60dp"></View>
+
         <EditText
             android:id="@+id/search"
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="6dp"
+            android:backgroundTint="#f6f6f6"
             android:inputType="text"
-            android:translationX="70dp"
-            android:translationY="60dp"
             android:text="Search"
-            android:layout_margin="6dp"
             android:textColor="#d4b300"
-            android:backgroundTint="#f6f6f6"/>
+            android:translationX="70dp"
+            android:translationY="57dp" />
+
         <ImageView
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:src="@drawable/screens_7_arrow_02"
-            android:translationX="8dp"
-            android:translationY="60dp">
-        </ImageView>
+            android:translationX="5dp"
+            android:translationY="60dp"></ImageView>
     </RelativeLayout>
 
     <!-- Main   -->
@@ -58,10 +62,9 @@
         <ImageView
             android:layout_width="90dp"
             android:layout_height="100dp"
+            android:src="@drawable/screens_8_despacito_03"
             android:translationX="30dp"
-            android:translationY="50dp"
-            android:src="@drawable/screens_8_despacito_03">
-        </ImageView>
+            android:translationY="50dp"></ImageView>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
