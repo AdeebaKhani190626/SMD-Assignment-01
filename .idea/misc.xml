@@ -4,8 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/drawable/button_rounded.xml" value="0.2075" />
+        <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/drawable/circle_grey.xml" value="0.2065" />
         <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/drawable/gradient_bar.xml" value="0.18" />
         <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/drawable/gradient_circle.xml" value="0.2075" />
+        <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/drawable/information.xml" value="0.135" />
         <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/drawable/message_bar.xml" value="0.12" />
         <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/drawable/rectangle_rounded.xml" value="0.2075" />
         <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/layout/activity_main.xml" value="0.1285140562248996" />
@@ -14,6 +16,7 @@
         <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/layout/activity_main_screen4.xml" value="0.18" />
         <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/layout/activity_main_screen5.xml" value="0.16" />
         <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/layout/activity_main_screen6.xml" value="0.14" />
+        <entry key="..\:/Android Studio Applications/i190626/app/src/main/res/layout/activity_main_screen7.xml" value="0.2" />
       </map>
     </option>
   </component>
