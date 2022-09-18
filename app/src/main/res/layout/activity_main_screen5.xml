@@ -213,6 +213,7 @@
             </TextView>
 
             <ImageView
+                android:id="@+id/add"
                 android:layout_width="65dp"
                 android:layout_height="60dp"
                 android:translationY="8dp"

@@ -14,6 +14,12 @@
         android:theme="@style/Theme.I190626"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivityScreen9"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityScreen8"
+            android:exported="false" />
+        <activity
             android:name=".MainActivityScreen7"
             android:exported="false" />
         <activity
