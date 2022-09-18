@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityScreen15"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <!-- Top Bar   -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35dp"
+            android:text="Song Title"
+            android:translationY="55dp"
+            android:translationX="30dp"
+            android:textColor="#ffffff">
+        </TextView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/dropdownbtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/screens_16_03"
+            android:translationX="345dp"
+            android:translationY="60dp"></androidx.appcompat.widget.AppCompatButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="By Artist"
+            android:textColor="#d4b300"
+            android:textSize="20dp"
+            android:translationX="30dp"
+            android:translationY="110dp"></TextView>
+
+    </RelativeLayout>
+
+    <!-- Main Body   -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:translationY="151dp">
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:translationX="30dp"
+            android:src="@drawable/screens_16_despacito_upd_03">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/screens_5_15"
+            android:translationY="380dp"
+            android:translationX="110dp">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/screen15_play"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/screens_5_16"
+            android:translationX="180dp"
+            android:translationY="380dp"></ImageView>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/screens_5_17"
+            android:translationY="380dp"
+            android:translationX="250dp">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="310dp"
+            android:layout_height="60dp"
+            android:src="@drawable/screens_16_07"
+            android:translationY="440dp"
+            android:translationX="50dp">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#d4b300"
+            android:text="0:00"
+            android:textSize="20dp"
+            android:translationX="80dp"
+            android:translationY="480dp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/screens_16_10"
+            android:translationY="520dp"
+            android:translationX="50dp">
+        </ImageView>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/screens_16_12"
+            android:translationY="520dp"
+            android:translationX="120dp">
+        </ImageView>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/screens_16_14"
+            android:translationY="520dp"
+            android:translationX="190dp">
+        </ImageView>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/screens_16_16"
+            android:translationY="520dp"
+            android:translationX="260dp">
+        </ImageView>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/screens_16_18"
+            android:translationY="520dp"
+            android:translationX="320dp">
+        </ImageView>
+    </RelativeLayout>
+
+    <!-- Bottom Bar   -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#2a2730"
+        android:translationY="750dp">
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="60dp"
+            android:src="@drawable/screens_5_21"
+            android:translationX="20dp"
+            android:translationY="3dp"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Liked"
+            android:textColor="#e8def8"
+            android:translationX="35dp"
+            android:translationY="50dp"></TextView>
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="60dp"
+            android:src="@drawable/screens_5_23"
+            android:translationX="125dp"
+            android:translationY="8dp"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:textColor="#e8def8"
+            android:translationX="142dp"
+            android:translationY="50dp"></TextView>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/screens_5_25"
+            android:translationX="230dp"
+            android:translationY="18dp"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:textColor="#e8def8"
+            android:translationX="230dp"
+            android:translationY="50dp"></TextView>
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:src="@drawable/screens_5_27"
+            android:translationX="328dp"
+            android:translationY="10dp"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Listen Later"
+            android:textColor="#e8def8"
+            android:translationX="320dp"
+            android:translationY="50dp"></TextView>
+    </RelativeLayout>
+
+</RelativeLayout>

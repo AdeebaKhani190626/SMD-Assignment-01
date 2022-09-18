@@ -5,81 +5,76 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivityScreen12"
+    tools:context=".MainActivityScreen14"
     android:orientation="vertical"
     android:background="@color/black">
 
-    <!-- Record   -->
+    <!-- Top Bar   -->
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp">
-        <ImageView
-            android:id="@+id/back_button"
-            android:layout_width="65dp"
-            android:layout_height="65dp"
-            android:translationY="35dp"
-            android:translationX="10dp"
-            android:src="@drawable/screens_7_arrow_02">
-        </ImageView>
+        android:layout_height="150dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Record"
-            android:textColor="#ffffff"
-            android:textSize="32dp"
-            android:translationY="40dp"
-            android:translationX="75dp">
+            android:textSize="35dp"
+            android:text="Select Playlist"
+            android:translationY="55dp"
+            android:translationX="95dp"
+            android:textColor="#ffffff">
         </TextView>
         <Button
-            android:id="@+id/screen12Next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="Skip"
+            android:translationY="55dp"
+            android:translationX="0dp"
+            android:textAllCaps="false"
+            android:textColor="#d4b300"
+            android:textSize="18dp">
+        </Button>
+
+        <Button
+            android:id="@+id/screen14_next"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/black"
             android:text="Next"
-            android:textColor="#d4b300"
-            android:translationY="40dp"
-            android:translationX="300dp"
             android:textAllCaps="false"
-            android:textSize="18dp">
-        </Button>
+            android:textColor="#d4b300"
+            android:textSize="18dp"
+            android:translationX="325dp"
+            android:translationY="55dp"></Button>
     </RelativeLayout>
 
-    <!-- Main Body   -->
+    <!-- Body   -->
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="650dp"
-        android:translationY="100dp">
+        android:layout_height="600dp"
+        android:translationY="151dp">
+
         <ImageView
-            android:layout_width="300dp"
-            android:layout_height="300dp"
-            android:src="@drawable/screens_8_despacito_03"
-            android:translationX="70dp">
-        </ImageView>
+            android:layout_width="140dp"
+            android:layout_height="180dp"
+            android:src="@drawable/playlist_rounded"
+            android:translationX="20dp"
+            android:translationY="150dp"></ImageView>
+
         <ImageView
-            android:id="@+id/stop_record"
             android:layout_width="70dp"
             android:layout_height="70dp"
-            android:src="@drawable/screens_14_03"
-            android:translationX="135dp"
-            android:translationY="350dp">
+            android:src="@drawable/yellow_circle"
+            android:translationX="320dp"
+            android:translationY="500dp">
         </ImageView>
 
         <ImageView
-            android:id="@+id/play"
-            android:layout_width="60dp"
+            android:layout_width="70dp"
             android:layout_height="70dp"
-            android:src="@drawable/screens_5_16"
-            android:translationX="210dp"
-            android:translationY="350dp"></ImageView>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="0:00 / 2:45"
-            android:textSize="23sp"
-            android:textColor="#d4b300"
-            android:translationY="310dp"
-            android:translationX="150dp">
-        </TextView>
+            android:src="@drawable/screens_15_add_03"
+            android:translationX="320dp"
+            android:translationY="505dp">
+        </ImageView>
     </RelativeLayout>
 
     <!-- Bottom Bar   -->
